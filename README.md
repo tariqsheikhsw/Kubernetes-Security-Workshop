@@ -30,3 +30,12 @@ kubectl version --client
 ```
 $env:KUBECONFIG = "kubeconfig.yaml"
 ```
+
+GitHub
+```
+https://github.com/bitnami-labs/sealed-secrets
+```
+
+
+
+
