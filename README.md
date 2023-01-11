@@ -25,6 +25,8 @@ Check Versions
 
 ```
 kubectl version --client 
+```
 
-
+```
+$env:KUBECONFIG = "kubeconfig.yaml"
 ```
