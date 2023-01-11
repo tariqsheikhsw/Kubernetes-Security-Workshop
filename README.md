@@ -49,7 +49,7 @@ kubectl logs deployment/sealed-secrets-controller -n kube-system
 
 kubectl edit deployment/sealed-secrets-controller -n kube-system
 // under spec,containers,args 
-// - --key-renew-period=45d
+// - --key-renew-period=45h
 
 ```
 
