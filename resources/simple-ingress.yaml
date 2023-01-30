@@ -1,0 +1,15 @@
+kind: Ingress
+metadata:
+  name: simple-ingress
+spec:
+  rules:
+  - host: tariqsheikh.io
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: caddy-svc
+            port:
+              number: 80
